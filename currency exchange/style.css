@@ -1,0 +1,550 @@
+:root {
+    /* Color Pallette */
+
+      /* Black */
+    --black-sec-25:  #FFFFFC;
+    --black-sec-50:  #FAFAFA;
+    --black-sec-100: #F8F8F8;
+    --black-sec-200: #F0F0F0;
+    --black-sec-300: #CDCDCD;
+    --black-sec-400: #B9B9B9;
+    --black-sec-500: #A4A4A4;
+    --black-sec-600: #9A9A9A;
+    --black-sec-700: #7B7B7B;
+    --black-sec-800: #5C5C5C;
+    --black-sec-900: #484848;
+    --black-sec-950: #2C2C2C;
+
+    /* Indicative colors */
+    /* Red */
+    --red-50:  #FEECE8;
+    --red-100: #FBC4B6;
+    --red-200: #F9A793;
+    --red-300: #F67F62;
+    --red-400: #F46643;
+    --red-500: #F14014;
+    --red-600: #DB3A12;
+    --red-700: #AB2D0E;
+    --red-800: #85230B;
+    --red-900: #651B08;
+
+     /* Yellow */
+    --yellow-50:  #FFFCEF;
+    --yellow-100: #FFF5CE;
+    --yellow-200: #FFF1B6;
+    --yellow-300: #FFEA95;
+    --yellow-400: #FFE681;
+    --yellow-500: #FFE061;
+    --yellow-600: #E8CC58;
+    --yellow-700: #B59F45;
+    --yellow-800: #8C7B35;
+    --yellow-900: #6B5E29;
+
+     /* Yellow */
+    --green-ind-50:  #E6FDE6;
+    --green-ind-100: #B0F9B3;
+    --green-ind-200: #8AF68E;
+    --green-ind-300: #54F25A;
+    --green-ind-400: #33F03A;
+    --green-ind-500: #00EC09;
+    --green-ind-600: #00D708;
+    --green-ind-700: #00A806;
+    --green-ind-800: #008205;
+    --green-ind-900: #006304;
+
+
+
+    /* Spacing */
+    --spacing-02: 0.125rem;
+    --spacing-04: 0.25rem;
+    --spacing-06: 0.375rem;
+    --spacing-08: 0.5rem;
+    --spacing-10: 0.625rem;
+    --spacing-12: 0.75rem;
+    --spacing-14: 0.875rem;
+    --spacing-16: 1rem;
+    --spacing-18: 1.125rem;
+    --spacing-20: 1.25rem;
+    --spacing-22: 1.375rem;
+    --spacing-24: 1.5rem;
+    --spacing-26: 1.625rem;
+    --spacing-28: 1.75rem;
+    --spacing-30: 1.875rem;
+    --spacing-32: 2rem;
+    --spacing-34: 2.125rem;
+    --spacing-36: 2.25rem;
+    --spacing-38: 2.375rem;
+    --spacing-40: 2.5rem;
+    --spacing-42: 2.625rem;
+    --spacing-44: 2.75rem;
+    --spacing-46: 2.875rem;
+    --spacing-48: 3rem;
+    --spacing-50: 3.125rem;
+    --spacing-52: 3.25rem;
+    --spacing-54: 3.375rem;
+    --spacing-56: 3.5rem;
+    --spacing-58: 3.625rem;
+    --spacing-60: 3.75rem;
+    --spacing-62: 3.875rem;
+    --spacing-64: 4rem;
+    --spacing-66: 4.125rem;
+    --spacing-68: 4.25rem;
+    --spacing-70: 4.375rem;
+    --spacing-72: 4.5rem;
+    --spacing-74: 4.625rem;
+    --spacing-76: 4.75rem;
+    --spacing-78: 4.875rem;
+    --spacing-80: 5rem;
+    --spacing-82: 5.125rem;
+    --spacing-84: 5.25rem;
+    --spacing-86: 5.375rem;
+    --spacing-88: 5.5rem;
+    --spacing-90: 5.625rem;
+    --spacing-92: 5.75rem;
+    --spacing-94: 5.875rem;
+    --spacing-96: 6rem;
+    --spacing-98: 6.125rem;
+    --spacing-100: 6.25rem;
+    --spacing-102: 6.375rem;
+    --spacing-104: 6.5rem;
+    --spacing-106: 6.625rem;
+    --spacing-108: 6.75rem;
+    --spacing-110: 6.875rem;
+    --spacing-112: 7rem;
+    --spacing-114: 7.125rem;
+    --spacing-116: 7.25rem;
+    --spacing-118: 7.375rem;
+    --spacing-120: 7.5rem;
+    --spacing-122: 7.625rem;
+    --spacing-124: 7.75rem;
+    --spacing-126: 7.875rem;
+    --spacing-128: 8rem;
+    --spacing-130: 8.125rem;
+    --spacing-132: 8.25rem;
+    --spacing-134: 8.375rem;
+    --spacing-136: 8.5rem;
+    --spacing-138: 8.625rem;
+    --spacing-140: 8.75rem;
+    --spacing-142: 8.875rem;
+    --spacing-144: 9rem;
+    --spacing-146: 9.125rem;
+    --spacing-148: 9.25rem;
+    --spacing-150: 9.375rem;
+    --spacing-152: 9.5rem;
+    --spacing-154: 9.625rem;
+    --spacing-156: 9.75rem;
+    --spacing-158: 9.875rem;
+    --spacing-160: 10rem;
+    --spacing-162: 10.125rem;
+    --spacing-164: 10.25rem;
+    --spacing-166: 10.375rem;
+    --spacing-168: 10.5rem;
+    --spacing-170: 10.625rem;
+    --spacing-172: 10.75rem;
+    --spacing-174: 10.875rem;
+    --spacing-176: 11rem;
+    --spacing-178: 11.125rem;
+    --spacing-180: 11.25rem;
+    --spacing-182: 11.375rem;
+    --spacing-184: 11.5rem;
+    --spacing-186: 11.625rem;
+    --spacing-188: 11.75rem;
+    --spacing-190: 11.875rem;
+    --spacing-192: 12rem;
+    --spacing-200: 12.125rem;
+}
+
+
+
+/* Dropdown CSS */
+
+* {
+    box-sizing: border-box;
+  }
+  html, body {
+    background-color: var(--black-sec-200);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Urbanist", sans-serif;
+    line-height: 120% !important;
+    display: flex;
+    justify-content: center;
+    margin-top: var(--spacing-64);
+
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .dropdown-custom {
+    border-radius: var(--spacing-08);
+
+  }
+  .toggle {
+    display: flex;
+    gap: var(--spacing-12);
+    align-items: center;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+  }
+  .options {
+    padding: var(--spacing-06);
+    position: absolute;
+    background-color: var(--black-sec-25);
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.12);
+    border-radius: var(--spacing-10);
+    z-index: 99;
+    min-width: var(--spacing-150);
+  }
+  
+  .option {
+    display: flex;
+    gap: var(--spacing-12);
+    align-items: center;
+    justify-content: start;
+    border-radius: 3px;
+    padding: 10px;
+  }
+  .option:hover {
+    background: var(--black-sec-200);
+    cursor: pointer;
+    border-radius: var(--spacing-08);
+  }
+  .flag {
+    min-width: var(--spacing-30) !important;
+    max-width: var(--spacing-30) !important;
+    min-height: var(--spacing-30) !important;
+    max-height: var(--spacing-30) !important;
+    object-fit:cover;
+  }
+  /* Dropdown CSS */
+
+  .card {
+    max-width: 30%;
+    background-color: var(--black-sec-25);
+    padding:  var(--spacing-32) var(--spacing-16);
+    border: none;
+    border-radius: var(--spacing-22);
+    box-shadow: 12px 12px 22px rgba(0, 0, 0, 0.04);
+    height: fit-content;
+  }
+  .special-form-control {
+    position: relative;
+    padding:0.75rem;
+    font-size: var(--font-18);
+    line-height: 120%;
+    font-weight: 500;
+    border-radius: var(--spacing-10);
+    border: solid 2px var(--black-sec-900);
+    color: var(--black-sec-800);
+    font-weight: 500;
+    background-color: var(--bg-white) !important;
+  }
+
+
+
+  h1 {
+    font-size: var(--spacing-28);
+    font-weight: 600;
+    color: var(--black-sec-900);
+  }
+
+  h2 {
+    font-size: var(--spacing-20);
+    font-weight: 600;
+    color: var(--black-sec-600);
+  }
+
+  .nude-form {
+    border: none !important;
+    padding: 0;
+    text-align: right;    
+    font-size: var(--spacing-16) !important;
+    font-weight: 500 !important;
+    color: var(--black-sec-900) !important;
+  }
+
+  .nude-form:focus {
+    color: var(--black-sec-900) !important;
+  }
+  .nude-form::placeholder {
+    color: var(--black-sec-500) !important;
+  }
+
+   .form-label {
+    font-size: var(--spacing-14);
+    font-weight: 700 !important;
+    color: var(--black-sec-400);
+   }
+
+   .input-divider {
+    width: var(--spacing-02);
+    background-color: var(--black-sec-300)!important;
+    height: var(--spacing-34) !important;
+   }
+
+   .country-tag {
+    font-size: var(--spacing-16) !important;
+    font-weight: 600 !important;
+    color: var(--black-sec-600);
+   }
+
+   .toggle, .option {
+    min-width: var(--spacing-100) !important;
+   }
+
+   .arrow-arbit {
+    background-color: var(--black-sec-200);
+    width: fit-content;
+    padding: var(--spacing-08);
+    border-radius: var(--spacing-08);
+   }
+
+
+   .checkout-button {
+    font-size: var(--font-16);
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: var(--spacing-10);
+    background-color: var(--black-sec-950) !important;
+    border: transparent;
+    color: var(--black-sec-25);
+    gap: 0.75rem;
+    transition: ease-in-out .15s;
+  }
+
+  .checkout-button:hover {
+    background-color: #1e1e1e !important;
+  }
+  .checkout-button:active {
+    background-color: #111111 !important;
+  }
+
+  .spinner-border {
+    width: var(--spacing-18);
+    height: var(--spacing-18);
+    border: none;
+}
+
+
+  .custom-spinner {
+    width: var(--spacing-18) !important;
+    height: var(--spacing-18) !important;
+  }
+
+  .help-text {
+    font-size: var(--spacing-14) !important;
+    font-weight: 600 !important;
+    color: var(--black-sec-400);
+    line-height: 120%;
+    text-align: center;
+  }
+
+.btn-icon {
+  width: var(--spacing-18);
+}
+
+.head-section {
+  width: 90%;
+}
+
+.option-save {
+  display: flex;
+  gap: var(--spacing-12);
+  align-items: center;
+  justify-content: start;
+  border-radius: var(--spacing-12);
+  padding: var(--spacing-06)var(--spacing-06)var(--spacing-06)var(--spacing-12);
+  background: var(--black-sec-200);
+  border-radius: var(--spacing-08);
+}
+
+
+.button-curr {
+  background-color: var(--black-sec-25);
+  border-radius: var(--spacing-06);
+  padding: var(--spacing-06);
+}
+
+.save-head {
+  font-size: var(--spacing-18) !important;
+  font-weight: 600 !important;
+  color: var(--black-sec-800);
+}
+
+.cursor-normal {
+  cursor: normal;
+}
+
+.toggle-cursor-normal {
+    display: flex;
+    gap: var(--spacing-12);
+    align-items: center;
+    justify-content: start;
+    align-items: center;
+}
+
+.save-section {
+  background-color: var(--black-sec-100);
+  border-radius: var(--spacing-16);
+  padding:var(--spacing-08);
+  border: solid 1px var(--black-sec-300);
+
+}
+
+.card-set-rates {
+  padding-bottom: var(--spacing-64) !important;
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 1250px) {
+  .card {
+    min-width: 50%;
+  }
+}
+@media screen and (min-width: 520px) and (max-width: 990px) {
+  .card {
+    min-width: 70%;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 520px) {
+
+  body {
+    margin: 0;
+  }
+
+  .card {
+    min-width: 100%;
+    border-radius: 0;
+    margin: 0;
+    min-height: 100vh;
+    padding-top: var(--spacing-64);
+    padding-bottom: var(--spacing-64);
+  }
+
+  h1 {
+    font-size: var(--spacing-24);
+  }
+
+  h2 {
+    font-size: var(--spacing-18);
+  }
+
+  .head-section {
+    width: 100% !important;
+  }
+
+  .form-label {
+    font-size: var(--spacing-12);
+  }
+  .country-tag {
+    font-size: var(--spacing-14);
+  }
+
+  .special-form-control {
+    padding: var(--spacing-08);
+    gap: var(--spacing-12) !important;
+  }
+
+  .toggle, .options {
+  max-width: var(--spacing-80) !important;
+  }
+
+  .checkout-button {
+    font-size: var(--spacing-14);
+  }
+  
+  .help-text {
+    font-size: var(--spacing-12) !important;
+  }
+
+}
+
+
+  .gap-04-box {
+    gap: var(--spacing-04);
+}
+
+.gap-08-box {
+    gap: var(--spacing-08);
+}
+
+.gap-08-box {
+    gap: var(--spacing-08);
+}
+
+.gap-10-box {
+    gap: var(--spacing-10);
+}
+
+.gap-12-box {
+    gap: var(--spacing-12);
+}
+
+.gap-14-box {
+    gap: var(--spacing-14);
+}
+
+.gap-16-box {
+    gap: var(--spacing-16);
+}
+
+.gap-18-box {
+    gap: var(--spacing-18);
+}
+
+.gap-20-box {
+    gap: var(--spacing-20);
+}
+
+.gap-22-box {
+    gap: var(--spacing-22);
+}
+
+.gap-24-box {
+    gap: var(--spacing-24);
+}
+
+.gap-26-box {
+    gap: var(--spacing-26);
+}
+
+.gap-28-box {
+    gap: var(--spacing-28);
+}
+
+.gap-30-box {
+    gap: var(--spacing-30);
+}
+
+.gap-32-box {
+    gap: var(--spacing-32);
+}
+.gap-34-box {
+    gap: var(--spacing-34);
+}
+.gap-36-box {
+    gap: var(--spacing-36);
+}
+.gap-38-box {
+    gap: var(--spacing-38);
+}
+.gap-40-box {
+    gap: var(--spacing-40);
+}
+
+.gap-64-box {
+    gap: var(--spacing-64);
+}
+.gap-01-box {
+    gap: 1%;
+}
+
+
+
+
